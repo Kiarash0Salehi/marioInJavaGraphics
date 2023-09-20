@@ -4,8 +4,6 @@ public class GamePanel extends JPanel implements Runnable {
         final int windowX=600;
         final int windowY=500;
         final int playerSize=8;
-        final int MAX_FPS=60;
-        final int MAX_UPS=60;
         public boolean running=true;
         mario m=new mario();
 
